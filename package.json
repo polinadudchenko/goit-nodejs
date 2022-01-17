@@ -1,0 +1,22 @@
+{
+  "name": "goit-nodejs-hw01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": "git+https://github.com/polinadudchenko/goit-nodejs-hw01.git",
+  "keywords": [],
+  "author": "Polina Dudchenko <pv.dudchenko@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polinadudchenko/goit-nodejs-hw01/issues"
+  },
+  "homepage": "https://github.com/polinadudchenko/goit-nodejs-hw01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
