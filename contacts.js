@@ -24,6 +24,7 @@ const addContact = async (name, email, phone) => {
   const contacts = await listContacts()
   contacts.push(newContact)
   await fs.writeFile(contactsPath, JSON.stringify(contacts, null, 2))
+  console.log('The contact has been successfully added')
   return newContact
 }
 
@@ -38,6 +39,8 @@ const removeContact = async contactId => {
   const contactToDelete = contacts[contactIdx]
   contacts.splice(contactIdx, 1)
   await fs.writeFile(contactsPath, JSON.stringify(contacts, null, 2))
+
+  console.log('The  following contact has been successfully deleted')
   return contactToDelete
 }
 
