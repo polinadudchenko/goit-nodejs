@@ -1,4 +1,4 @@
-const contactsOperations = require('./contacts')
+const contactsOperations = require('./controllers/contacts')
 
 const { Command } = require('commander')
 const program = new Command()
